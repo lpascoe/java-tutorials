@@ -14,7 +14,7 @@ public class Syntax {
 
 		//running it!
 		smallestLambda.run();
-		//nothing interesting will happen
+		//exciting....nothing happened
 	}
 
 	@Test

@@ -1,58 +1,13 @@
-# Lambdas
+# Lambdas Introduction
 
-## basics
+Lambda syntax is a powerful tool to have in your java coding arsenal. Lambda provides syntactic sugar to help write terse, readable code.
 
-Lambdas implement a functional interface
+In this repository, we cover the following topics
 
-It has many functional similarities to Anonymous Inner Classes
+* Lambda syntax
+* Anonymous classes differences
+* Nitty gritty compilation
+* Functional Interfaces
+* Coding Standards
 
-```java
-	private interface AnonymousInnerFunction {
-		String getGreeting();
-	}
-```
-it's used by createing a new instance with an override for the method.
-
-```java
-
-	AnonymousInnerFunction anonGreeting = new AnonymousInnerFunction() {
-			@Override
-			public String getGreeting() {
-				return "Hello World";
-			}
-		};
-			
-``` 
-
-
-
-The most basic lambda `() -> {}`
-
-
-##Parameters
-
-
-```java
-// parameters are specified in the parentheses  
- ()
-//eg
-
-//no parameters
-() -> {};
-
-// a single parameter
-(String str) -> {};
-
-// multiple parameters
-(String str, int i) -> {};
-```
-
-Return Values
-
-Returned values are implicit based on its context
-
-```
-() -> "implicit string";
-```
-
-[Part 2](part2_moreAdvanced/README.md)
+[Part 1](part1_basics/README.md)

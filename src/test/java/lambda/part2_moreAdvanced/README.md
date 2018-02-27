@@ -129,7 +129,7 @@ The following example will result in a compilation error
 	}
 ```
 
-
+Class fields on the other hand can be overriden, the compiler will give a warning, it is not recommended, but it is allowed.
 
 ```java
 	
@@ -150,4 +150,4 @@ The following example will result in a compilation error
 	}
 ```
 
-[Built in functional interfaces](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)
+[Part 3](../part3_functionalInterfaces/README.md)

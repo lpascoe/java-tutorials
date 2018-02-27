@@ -38,11 +38,21 @@ The most basic lambda `() -> {}`
 //eg
 
 //no parameters
-() -> {}
+() -> {};
 
 // a single parameter
-(String string) -> {};
+(String str) -> {};
 
 // multiple parameters
 (String str, int i) -> {};
 ```
+
+Return Values
+
+Returned values are implicit based on its context
+
+```
+() -> "implicit string";
+```
+
+[Part 2](part2_moreAdvanced/README.md)

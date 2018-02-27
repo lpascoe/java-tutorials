@@ -1,4 +1,4 @@
-package part3_functionalInterfaces;
+package lambda.part3_functionalInterfaces;
 
 import java.util.function.Supplier;
 
@@ -11,4 +11,5 @@ public class FunctionalInterfaces {
 		Supplier<String> greeting = () -> "hello World";
 		System.out.println(greeting.get());
 	}
+
 }

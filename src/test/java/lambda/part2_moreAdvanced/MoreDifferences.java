@@ -1,4 +1,4 @@
-package lambda.par2_moreAdvanced;
+package lambda.part2_moreAdvanced;
 
 import org.junit.Test;
 

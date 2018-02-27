@@ -28,31 +28,20 @@ Would be replaced by
 	System.out.println(greeting.get());
 ```
 
-Java provides a few dozen interfaces to implement against, the complete list is found here [Here](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html). These would cover 90% of your interface requirements. Think twice before creating your own functional interface, it may be an indicator to do a refactor.
+Java provides a few dozen interfaces to implement against, the complete list is found here [Here](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html). These would cover 90% of your interface requirements.
 
 General Verbiage of the built in Functional Interfaces
 
-| Name | Parameters | Returns |
-|------|------------|---------|
-|`Consumer`|N/A|N/A|
+| Name | Parameters | Returns |Uses/Examples|
+|------|------------|---------|----|
+|`Consumer`|1...* any type|N/A|Setters, Event Handlers|
+|`Predicate`|0...*|`boolean`|Streams, Filters|
+|`Function`|1...* any type|any type|general purpose|
+|`Operator`|2...* of type `T`|`T`|`String::concat`|
+|`Unary`|1 type `T`|`T`|`String::reverse`|
+|`Binary`|2 type `T`|`T`|`String::concat`|
 
-
-* `Consumer` always takes at least a value and always returns nothing
-* `Predicate` always returns a `boolean` value
-* `Function` takes at least one value and returns 
-
-Most notable functional interfaces, in my opinion, include
-
-* `Consumer<T>` takes type `T` and returns nothing. 
-
-BiConsumer<T,U>
-BiFunction<T,U,R>
-BiPredicate<T,U>
-
-Function<T,R>
-Predicate<T>
-Supplier<T>
-UnaryOperator<T>
+If writing your own functional interface follow the standard verbiage for readability 
  
 
 [Part 1](part1_basics/README.md)

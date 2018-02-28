@@ -11,6 +11,7 @@ It has many functional similarities to Anonymous Inner Classes
 		String getGreeting();
 	}
 ```
+
 it's used by createing a new instance with an override for the method.
 
 ```java
@@ -22,9 +23,7 @@ it's used by createing a new instance with an override for the method.
 			}
 		};
 			
-``` 
-
-
+```
 
 The most basic lambda `() -> {}`
 

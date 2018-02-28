@@ -37,11 +37,11 @@ General Verbiage of the built in Functional Interfaces
 |`Consumer`|1...* any type|N/A|Setters, Event Handlers|
 |`Predicate`|0...*|`boolean`|Streams, Filters|
 |`Function`|1...* any type|any type|general purpose|
-|`Operator`|2...* of type `T`|`T`|`String::concat`|
+|`Operator`|2...* of type `T`|`T`|input manipulation `String::concat`|
 |`Unary`|1 type `T`|`T`|`String::reverse`|
 |`Binary`|2 type `T`|`T`|`String::concat`|
 
 If writing your own functional interface follow the standard verbiage for readability 
  
 
-[Part 1](part1_basics/README.md)
+[Part 4](../part4_staticReferences/README.md)

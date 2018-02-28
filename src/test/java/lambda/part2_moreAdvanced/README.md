@@ -103,7 +103,6 @@ however class fields are completely mutable
 	
 ```
 
-This is allowed because the `private static /* synthetic */ void lambda$0(String string)` can reference the field directly, rather than using a copy passed in at runtime.
 
 ## Variable overrides
 
@@ -129,7 +128,7 @@ The following example will result in a compilation error
 	}
 ```
 
-Class fields on the other hand can be overriden, the compiler will give a warning, it is not recommended, but it is allowed.
+Class fields on the other hand can be overridden, the compiler will give a warning, it is not recommended, but it is allowed.
 
 ```java
 	

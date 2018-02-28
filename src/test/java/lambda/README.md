@@ -1,6 +1,13 @@
-# Referencing methods
+# Lambdas Introduction
 
-Now that pure functions can be passed around, a way is needed to reference them.
+Lambda syntax is a powerful tool to have in your java coding arsenal. Lambda provides syntactic sugar to help write terse, readable code.
 
-Introducing the `::` operator
+In this repository, we cover the following topics
 
+* Lambda syntax
+* Anonymous classes differences
+* Nitty gritty compilation
+* Functional Interfaces
+* General Pracices
+
+[Part 1](part1_basics/README.md)

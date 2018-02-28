@@ -1,4 +1,4 @@
-# The Good, The Bad, and The Ugly
+# The Good, The Bad, and The Ugly (Tricks and Tips)
 
 Like with any other useful tool, it can be used improperly. Below are some general practices to make sure everyones experience with lambdas is as good as yours 
 

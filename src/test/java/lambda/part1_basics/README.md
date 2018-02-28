@@ -48,10 +48,16 @@ The most basic lambda `() -> {}`
 
 Return Values
 
-Returned values are implicit based on its context
+The return statement can be implicit based on its context
 
 ```
 () -> "implicit string";
+```
+
+Or they can be explicit
+
+```java
+() -> {return "implicit string";};
 ```
 
 [Part 2](../part2_moreAdvanced/README.md)

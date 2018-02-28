@@ -1,4 +1,4 @@
-# Functional Intefaces
+# Functional Interfaces
 
 With Anonymous Classes you provide your own interfaces to bind to.
 

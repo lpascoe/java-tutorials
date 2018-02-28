@@ -60,4 +60,26 @@ Or they can be explicit
 () -> {return "implicit string";};
 ```
 
+
+They can be assigned to variables
+
+```java
+private interface AnonymousInnerFunction {
+		String getGreeting();
+}
+
+//using anonymous inner classes
+AnonymousInnerFunction anonGreeting = new AnonymousInnerFunction() {
+	@Override
+	public String getGreeting() {
+		return "Hello World";
+	}
+};
+System.out.println(anonGreeting.getGreeting());
+
+// using lambdas
+AnonymousInnerFunction lambdaGreeting = () -> "Hello World";
+System.out.println(func.getGreeting());
+```
+
 [Part 2](../part2_moreAdvanced/README.md)
